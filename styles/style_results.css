@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('../fonts/arlrdbd.ttf');
+}
+
+h2 {
+    font-family: "Arial Rounded MT Bold";
+    margin-left: 50px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--Eléments de base-->
+    <title>E-Commercio</title>
+    <meta name="Cédric Bevilacqua" content="Page d'accueil et promotions" />
+    <meta charset='UTF-8' />
+    <!--Feuilles CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style_buy.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style_articles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style_headerfooter.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <div id="Center1">
+                <img src="images/icon.png" alt="Chariot, symbole des courses et achats et icone du site internet E-Commercio."
+                    id="icon" />
+                <h1>E-Commercio</h1>
+            </div>
+        </a>
+        <form id="Center2" method="GET" action="results.html">
+            <select>
+                <option>Toutes catégories</option>
+                <option>Livres</option>
+                <option>High Tech</option>
+                <option>Jouets</option>
+                <option>Maison</option>
+                <option>Beauté</option>
+                <option>Epicerie</option>
+                <option>Vêtements</option>
+                <option>Sport</option>
+                <option>Automobile</option>
+            </select>
+            <input type="text" />
+            <button type="submit">Rechercher</button>
+        </form>
+    </header>
+
+    <h2>Validation de la commande</h2>
+
+    <section>
+        <h3>Récapitulatif de la commande</h3>
+        <div class="articles">
+            <article class="UNIQLN-COL1">
+                <div class="grid">
+                    <div class="art-col-1">
+                        <img src="images/article1.png" alt="Image de l'article iPhone XR" />
+                    </div>
+                    <div class="art-col-2">
+                        <h3>iPhone XR</h3>
+                        <p class="vendeur">Apple</p>
+                        <p id="prix">855€</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <h3>Suppléments de commande</h3>
+        <form method="GET" action="https://medusa.delahayeyourself.info/form/process/">
+            <div id="supplements">
+                <input name="supplement" type="checkbox" value="garantie"><label class="supplement">Ajouter la garantie
+                    Apple
+                    Care</label>
+                <input name="supplement" type="checkbox" value="ecran"><label class="supplement">Ajouter un protecteur
+                    d'écran en verre trempé</label>
+                <input name="supplement" type="checkbox" value="coque"><label class="supplement">Ajouter une coque de
+                    protection en cuir</label>
+            </div>
+            <h3>Informations de paiement</h3>
+            <div id="paiement">
+                <input placeholder="Numéro de carte" type="password" name="CBnum" required />
+                <input placeholder="Titulaire" type="text" name="CBtitulaire" required />
+                <input placeholder="Cryptogramme visual" type="password" name="CBcrypto" required />
+                <input id="DateValidite" type="date" name="CBdate" required />
+            </div>
+            <h3>Informations de livraison</h3>
+            <input placeholder="Numéro" type="number" name="AdressNum" required />
+            <select id="AdressVoie" size="1" name="AdresseVoie">
+                <option>Chemin</option>
+                <option>Rue</option>
+                <option>Avenue</option>
+                <option>Route</option>
+            </select>
+            <input placeholder="Rue" type="text" name="AdressRue" required />
+            <input placeholder="Code postal" type="number" name="AdressCodePos" required />
+            <input placeholder="Ville" type="text" name="AdressVille" required />
+            <button type="submit">Valider la commande</button>
+        </form>
+    </section>
+
+    <footer>
+        <p id="Marque">© 2018 E-Commercio</p>
+        <p>Créé par Cédric Bevilacqua et Raphaël Delauttre</p>
+        <nav>
+            <a href="info.html#propos" title="Accéder à la page d'informations du site internet.">A propos</a>
+            <p> • </p>
+            <a href="info.html#legal" title="Accéder à la page d'informations du site internet.">Légale</a>
+            <p> • </p>
+            <a href="info.html#contact" title="Accéder à la page d'informations du site internet.">Contact</a>
+        </nav>
+    </footer>
+</body>
+
+</html>

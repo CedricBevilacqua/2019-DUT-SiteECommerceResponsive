@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Candy Beans';
+    src: url('../fonts/CandyBeans.otf');
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.ttf');
+}
+
+header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header div #icon {
+    width: 100px;
+    height: 100px;
+}
+
+header div h1 {
+    display: inline;
+    font-size: 100px;
+    font-family: "Candy Beans";
+    margin-left: 25px;
+    color: rgb(255, 253, 245);
+}
+
+header #Center1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+header select {
+    font-size: 20px;
+    width: 170px;
+}
+
+header input {
+    font-size: 20px;
+    width: 500px;
+}
+
+header button {
+    font-size: 20px;
+    font-family: "Calibri";
+}
+
+header #Center2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header input {
+    font-family: "Calibri";
+}
+
+header select {
+    font-family: "Calibri";
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(99, 99, 99);
+}
+
+footer nav p {
+    display: inline;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer nav {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+footer>p {
+    font-family: "Arial";
+}
+
+footer nav a {
+    color: rgb(255, 233, 191);
+    font-family: "Arial Narrow";
+}
+
+footer #Marque {
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 850px) {
+    header div h1 {
+        font-size: 50px;
+    }
+    header div #icon {
+        width: 50px;
+        height: 50px;
+    }
+    header select {
+        font-size: 14px;
+        width: 80px;
+    }
+    header input {
+        font-size: 14px;
+        width: 200px;
+    }
+    header button {
+        font-size: 14px;
+    }
+}

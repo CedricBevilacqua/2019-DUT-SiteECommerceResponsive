@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('../fonts/arlrdbd.ttf');
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/Calibri.ttf');
+}
+
+h2 {
+    font-family: "Arial Rounded MT Bold";
+    margin-left: 30px;
+}
+
+h3 {
+    font-family: "Arial Rounded MT Bold";
+    margin-left: 30px;
+}
+
+p {
+    font-family: "Calibri";
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+li {
+    font-family: "Calibri";
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}

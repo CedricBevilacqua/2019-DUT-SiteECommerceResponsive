@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('../fonts/arlrdbd.ttf');
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('../fonts/Calibri.ttf');
+}
+
+h2 {
+    font-family: "Arial Rounded MT Bold";
+    margin-left: 15px;
+}
+
+h3 {
+    font-family: "DejaVu Sans Mono";
+    margin-left: 15px;
+}
+
+.supplement {
+    font-family: "Calibri";
+}
+
+#supplements {
+    display: grid;
+    grid-template-columns: 20px 100%;
+    margin-left: 30px;
+}
+
+#paiement {
+    margin-left: 30px;
+}
+
+#prix {
+    font-family: "Clarendon Blk BT";
+    font-size: 28px;
+    text-align: center;
+}
+
+form input {
+    font-family: "Calibri";
+}
+
+form button {
+    font-family: "Calibri";
+    font-weight: bold;
+}
